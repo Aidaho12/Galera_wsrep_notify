@@ -22,3 +22,4 @@ And set MariaDB variables to avoid restarting:
 ```
 MariaDB [(none)]> set global wsrep_notify_cmd='/var/lib/mysql/wsrep_status.py'
 ```
+Fork from: https://github.com/gguillen/galeranotify
