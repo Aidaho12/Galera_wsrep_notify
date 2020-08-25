@@ -12,7 +12,11 @@ Add your credentials in the script:
     #Set proxy server if needs: http://ip:3128   
     proxy = ""
 ```    
-Put script someting like /var/lib/mysql/, do chmod +x to the script and add next row to the config:
+Put the script in someting like /var/lib/mysql/, do 
+```
+chmod +x /var/lib/mysql/wsrep_status.py
+```
+to the script and add next row to the mysql config:
 ```
 [galera]
 wsrep_notify_cmd=/var/lib/mysql/wsrep_status.py
